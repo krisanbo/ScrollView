@@ -12,6 +12,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // meter sitio donde va el icono
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.mipmap.ic_launcher);
     }
     //crear metodo para que nos de el mensaje, utilizar bucle switch, utilizar nombre "view" del metodo View
     public void Seleccion(View view){
